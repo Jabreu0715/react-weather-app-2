@@ -11,11 +11,14 @@ body {
 }
 .Weather .current-temp {
   font-size: 48px;
-  color: black;
+}
+.Weather .current-weather {
+  margin-top: 20px;
 }
 .Weather .unit {
-  font-size: 24px;
-  color: black;
+  font-size: 16px;
+  position: relative;
+  top: -20px;
 }
 .Weather h1 {
   font-family: Arial, Helvetica, sans-serif;
@@ -35,8 +38,10 @@ body {
   line-height: 19px;
   list-style-type: none;
 }
-.img-fluid {
+.Weather .img-fluid {
   width: 75px;
+  margin-right: 10px;
+  float: left;
 }
 .btn {
   color: rgba(128, 128, 128);
