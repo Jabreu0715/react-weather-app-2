@@ -26,15 +26,17 @@ export default function WeatherInfo(props) {
             <span className="unit">°C</span>
           </div>
           <div className="col-6">
-            <ul>
-              <li>Precipitation: 20%</li>
-              <li>Humidity: {props.data.humidity}</li>
-              <li>
-                Wind: {props.data.wind}
-                {""}
-                km/h
-              </li>
-            </ul>
+            <span className="current-conditons">
+              <ul>
+                <li>Precipitation: 20%</li>
+                <li>Humidity: {props.data.humidity}</li>
+                <li>
+                  Wind: {props.data.wind}
+                  {""}
+                  km/h
+                </li>
+              </ul>
+            </span>
           </div>
         </div>
       </div>
