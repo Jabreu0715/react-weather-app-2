@@ -12,7 +12,7 @@ export default function App() {
           <a
             href="https://github.com/Jabreu0715"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="footer"
           >
             {" "}
@@ -23,7 +23,7 @@ export default function App() {
             <a
               href="https://github.com/Jabreu0715/react-weather-app-2"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="footer"
             >
               GitHub
@@ -32,7 +32,7 @@ export default function App() {
             <a
               href="https://taupe-meerkat-721582.netlify.app/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="footer"
             >
               Netlify
