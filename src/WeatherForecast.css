@@ -1,7 +1,22 @@
 .WeatherForecast {
   text-align: center;
+  margin-top: 20px;
+}
+.WeatherForecast-temperatures {
+  margin-top: 10px;
 }
 .WeatherForecast-temperature-min {
   opacity: 0.7;
   margin-left: 5px;
+}
+.WeatherForecast-temperature-max {
+  color: yellow;
+}
+.WeatherForecast-day {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.WeatherForecast-day canvas {
+  min-height: 64px;
 }
